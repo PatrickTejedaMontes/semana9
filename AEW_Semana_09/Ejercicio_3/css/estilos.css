@@ -1,0 +1,20 @@
+.contenedor3{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+}
+p{
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+.columna1{
+    background-color: chocolate;
+
+}
+.columna2{
+    background-color: orange;
+}
+.columna3{
+    background-color: cyan;
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: chocolate;
+
+}
+.contenedor{
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: beige;
+}
+header h1{
+    color: chocolate;
+    text-align: center;
+    padding: 20px;
+}
+header img{
+    width: 100%;
+    vertical-align: bottom;
+}
+nav{
+    background-color: yellow;
+}
+nav a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+}
+main{
+    display: flex;
+}
+aside{
+    width: 25%;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+aside h2{
+color: blue;
+}
+section{
+    background-color: antiquewhite;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+section figure{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section figure img{
+    width: 90%;
+    display: inline-block;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+section figure figcaption{
+    text-align: center;
+    color: rgb(58, 141, 58);
+    margin: 10px;
+    font-size: 20px;
+}
+aside p{
+text-align: justify;
+
+}
+
+aside img{
+    width: 40%;
+}
+
+.escudo{
+    
+    text-align: center;
+}
+footer{
+    background-color: green;
+    text-align: center;
+    color: white;
+
+}
+
